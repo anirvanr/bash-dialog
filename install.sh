@@ -133,7 +133,6 @@ function package_java_install () {
   package_service_restart
 }
 
-
 function package-AAA ()
 {
   package_name=package-AAA
@@ -144,17 +143,17 @@ function package-AAA ()
 
 function package-BBB ()
 {
-  package_name=package-AAA
-  package_service_name=AAA
-  package_backup_files="/opt/AAA.conf"
+  package_name=package-BBB
+  package_service_name=BBB
+  package_backup_files="/opt/BBB.conf"
   package_java_install
 }
 
-function package-BBB ()
+function package-CCC ()
 {
-  package_name=package-AAA
-  package_service_name=AAA
-  package_backup_files="/opt/AAA.conf"
+  package_name=package-CCC
+  package_service_name=CCC
+  package_backup_files="/opt/CCC.conf"
   package_java_install
 }
 
