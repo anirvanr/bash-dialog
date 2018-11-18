@@ -1,9 +1,8 @@
 #!/bin/bash
 
 #-------------------------------------------------------------------------------
-# SCRIPT.........: deploy.sh
-# ACTION.........: deploy.sh is a bash script, which can be used to automate package installtion
-# COPYRIGHT......: Dynacommerce
+# SCRIPT.........: install.sh
+# ACTION.........: install.sh is a bash script, which can be used to automate package installtion
 # AUTHOR.........: Anirvan Ray (anirvanr@gmail.com)
 # LICENSE........: MIT (see https://opensource.org/licenses/MIT)
 # VERSION........: 0.3
